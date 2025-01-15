@@ -10,7 +10,7 @@ Por ejemplo:
 """
 #Ejercicio 1
 def sumAllNumbers(limit: int):
-    return sum(range(0, limit+1))
+    pass
 
 
 # Tests
@@ -40,7 +40,7 @@ Por ejemplo:
 """
 #Ejercicio 2
 def count(s: str):
-    return {a: sum(1 for x in s if x == a is not None) for a in s}
+    pass
     
 
 #Tests
@@ -71,7 +71,7 @@ Por ejemplo:
 """
 #Ejercicio 3
 def narcissistic(value: int):
-    return value == sum([int(a) ** len(str(value)) for a in str(value)])
+    pass
 
 #Tests
 def test_narcissistic():
@@ -153,3 +153,4 @@ def test_boyer_moore():
     assert boyer_moore('azucar', '') == True
     assert boyer_moore('', 'uc') == False
     assert boyer_moore('abcabcabc', 'abc') == True
+
